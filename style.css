@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto","Arial",sans-serif;
+}
+.top-menu {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0px 20px 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 9999;
+}
+.toggle-btn {
+    width: 25px;
+    height: 32px;
+}
+.left-menu .logo {
+    width: 100px;
+}
+.top-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+}
+.top-search .searchbar-container {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 490px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.top-search .searchbar-container .searchbar {
+    width: 430px;
+    height: 37px;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    border-right: 1px solid black;
+    margin-right: 15px;
+}
+.top-search .searchbar-container .searchbar:focus {
+    border: none;
+}
+.top-search .search-icon {
+    width: 22px;
+}
+.top-search .mic-icon {
+    width: 33px;
+    height: 30px;
+}
+
+.right-menu {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-menu .profile-icon {
+    border-radius: 50%;
+    width: 30px;
+}
+
+/* Side Menu */
+.side-menu {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    padding-left:20px;
+}
+.side-menu .cat-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.side-menu .cat-1 h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+.side-menu .cat-1 h3 > i, h3 > img {
+    margin-right: 20px;
+}
+.side-menu .cat-2 h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+.side-menu .cat-2 h2 {
+ font-size: 16px;   
+}
+.side-menu .cat-2 .right-arrow {
+ width: 15px;
+}
+.side-menu .cat-2 .your-channel-icon {
+    width: 24px;
+}
+.side-menu .cat-2 h3 > i, h3 > img {
+    margin-right: 20px;
+}
+.side-menu .cat-2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 30px 0px;
+    border-top: 1px solid #d7d5d5;
+}
+
+/* Main Content */
+.main-content {
+    position: relative;
+    top: 110px;
+    left: 260px;
+    width: 80%;
+}
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-row .vid-box {
+    width: 20%;
+}
+.content-row .vid-box img {
+    width: 300px;
+}
